@@ -1,0 +1,117 @@
+.carousel-item{
+  height:500px;
+}
+.navbar{
+  padding: 0 ;
+}
+.container-fluid{
+  background:rgba(69, 69, 69, 0.781);
+  padding: 10px ;
+}
+.container-fluid .navbar-brand,
+.container-fluid #navbarSupportedContent>form>button{
+  color: rgb(255, 255, 255);
+}
+.container-fluid #navbarSupportedContent>form>button{
+  border-color: aqua;
+}
+.container-fluid #navbarSupportedContent>form>button:hover{
+  background-color: aqua;
+  color: rgb(7, 7, 67);
+}
+.container-fluid #navbarSupportedContent .navbar-nav>li>a{
+  color: white;
+}
+.container-fluid>button{
+  background-color: rgb(255, 255, 255);
+  color: transparent;
+}
+.row .col-lg-4 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: black;
+  height:3rem;
+  width:3.1rem;
+  background-size: 70% 70%;
+  border-radius: 50%;
+}
+
+.occupation{
+  font-size: 20px;
+  margin-right: 15px;
+  color: rgb(255, 255, 255);
+}
+.subject{
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 500;
+}
+.skills{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(135, 135, 135);
+  text-decoration: underline;
+}
+.perlProj{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(135, 135, 135);
+  text-decoration: underline;
+}
+.xCard{
+  background-image: url('https://t4.ftcdn.net/jpg/02/90/92/83/360_F_290928379_xpW40juA2pvDLqMzlWcwmik0ypDYbq0O.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+.youtube{
+  background-image: url('https://img.freepik.com/free-photo/pile-3d-play-button-logos_1379-880.jpg?w=1060&t=st=1709899009~exp=1709899609~hmac=0b9b090b667cbe440e0f50c047c8480525f6d3e8005126661550b6827dc2638b'); background-size: cover; 
+  background-repeat: no-repeat;
+}
+.htmlCssJs{
+  background-image: url('https://media.sketchfab.com/models/c705869a59ae4b3497ef7b5332963c3c/thumbnails/d790ffc579794d528e06d905d6ccfc9c/502972474da047ed9c497efb4aa2f6a2.jpeg'); background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.infScroll{
+  background-image: url('https://bluetext.com/wp-content/uploads/2022/10/Infinite-Page-Scroll.gif');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.foot{
+  font-size:30px;
+  font-weight: 700;
+  color:rgba(74, 74, 74, 0.895);
+}
+.title{
+  font-size: 30px;
+  border: none;
+}
+.xlink,
+.yLink,
+.hcjLink,
+.isLink{
+  position: absolute;
+  right:40px;
+  bottom: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(90, 90, 255);
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.yLink{
+  color: rgb(255, 90, 90);
+}
+.isLink,
+.hcjLink{
+  color: black;
+}
